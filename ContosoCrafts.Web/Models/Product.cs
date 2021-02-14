@@ -9,7 +9,7 @@ namespace ContosoCrafts.Web.Models
 {
     public class Product
     {
-        public int Id { get; set; }
+        public string Id { get; set; }
         public string  Maker { get; set; }
 
         [JsonPropertyName("img")]
